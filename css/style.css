@@ -1,0 +1,257 @@
+body {
+
+	font-family: FuturaStd-Book,Futura,"Trebuchet MS",Arial,sans-serif;
+	
+}
+*{
+	--orange:#fecb10;
+	--gray:#212529;
+	--font:#3E3B3B;
+}
+
+/*header section*/
+
+.header {
+	background-color: var(--orange);
+	padding: 5px 0px;
+}
+.gray {
+	height: 2px;
+}
+.navbar-dark .navbar-brand {
+	color: var(--orange);
+	font-weight: bold;
+}
+.navbar-dark .navbar-brand span{
+	color: #999687;
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: -5px;
+}
+.header span {
+	margin-right: 10px;
+	font-size: 13px;
+}
+.header i {
+	cursor: pointer;
+	font-size: 13px;
+}
+
+/*main section*/
+
+.main{
+	background: url('../images/service-img-1.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: calc(100vh - 105px);
+	position: relative;
+}
+.overlay {
+ 
+	position: absolute;
+	width: 100%;
+	height: 100%;
+  	left: 0; right: 0;
+  	top: 0; bottom: 0;
+  	background: rgba(0,0,0,.6);
+}
+.main h4 , .main p{
+	color: #ddd;
+}
+.main h1:first-of-type{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+}
+.main h1:last-of-type{
+	color: var(--orange);
+	font-size: 50px;
+	font-weight: bold;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/*Welcome section*/
+
+.welcome {
+	padding: 50px 0;
+}
+.welcome img{
+	width: 100%;
+	height:100%;
+}
+
+.welcome h1:first-of-type{
+	color: var(--orange);
+	font-weight: bold;
+
+}
+.welcome h1:last-of-type{
+	color: var(--font);
+	font-weight: bold;
+}
+
+/*choose section*/
+
+.choose{
+	color: var(--font);
+	height: auto;
+	padding: 50px 0;
+}
+.choose h2{
+	font-weight: bold;
+}
+.choose i {
+
+	color: var(--font);
+	font-size: 60px;
+	margin: 50px 0;
+	border-radius: 100%;
+    background: #f4f4f4;
+    border: 5px solid #fdc80a;
+    box-shadow: 0 0 0 3px #f3db6d, 
+                0 0 0 6px #f5e17e, 
+                0 0 0 9px #efe69b;
+	padding: 25px;
+}
+.choose h6 {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/*service section*/
+
+.service {
+	color: var(--font);
+	padding:50px 0;
+}
+.service h2{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.service h5 {
+	font-weight: bold;
+}
+.service img{
+	width: 100%;
+	height:50%;
+	margin-bottom: 20px;
+}
+
+/*message section*/
+
+.message{
+	background-color: var(--orange);
+	color: var(--gray);
+	width: 100%;
+	padding: 30px 0;
+}
+.message span{
+font-weight: normal;
+}
+.message h2{
+font-weight: bold;
+}
+.message button {
+	width: 100%;
+}
+
+/*contact section*/
+
+.contact{
+	background: url('../images/contact.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 450px;
+	width: 100%;
+	position: relative;
+	color: #ddd;
+}
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+  	left: 0; right: 0;
+  	top: 0; bottom: 0;
+  	background: rgba(0,0,0,.6);
+}
+.contact h3 {
+	color: var(--orange);
+	font-weight: bold;
+	font-size: 17px;
+}
+.contact h3 span {
+	color: #999687;
+	font-size: 12px;
+	font-weight: normal;
+}
+.contact p {
+	margin: 20px 0 ;
+	font-size: 14px;
+}
+.contact .con i {
+	box-sizing: border-box;
+	background-color: var(--orange);
+	border-radius: 100%;
+	padding: 9px;
+	color: var(--gray);
+	font-size: 12px;
+}
+.contact .con i:hover {
+	color: var(--orange);
+	background-color: var(--gray);
+}
+
+.contact .con a:first-of-type i {
+	padding: 9px 12px !important ;
+}
+.contact a{
+	text-decoration: none;
+	color: #ddd;
+	font-size: 13px;
+	font-weight: bold;
+}
+.contact .arch i{
+	font-size: 7px;
+}
+.contact h4{
+	margin-bottom: 20px;
+}
+.post {
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	padding: 1px 7px;
+}
+.post span {
+	font-size: 18px;
+	margin-bottom: -10px;
+}
+ .last span{
+ 	font-size: 14px;
+ }
+
+@media (max-width: 992px) {
+	.contact{
+		height: 600px;
+	}
+	.main h1{
+		font-size: 35px !important;
+	}
+}
+
+/*footer section*/
+
+footer {
+	padding: 5px 0;
+	color: #ddd;
+	font-size: 12px;
+}
+footer span{
+	color: var(--orange);
+}
