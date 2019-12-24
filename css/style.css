@@ -45,11 +45,9 @@ body {
 	background-position: center;
 	width: 100%;
 	height: calc(100vh - 105px);
-	position: relative;
 }
 .overlay {
  
-	position: absolute;
 	width: 100%;
 	height: 100%;
   	left: 0; right: 0;
@@ -169,19 +167,10 @@ font-weight: bold;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	height: 450px;
 	width: 100%;
-	position: relative;
 	color: #ddd;
 }
-.overlay {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-  	left: 0; right: 0;
-  	top: 0; bottom: 0;
-  	background: rgba(0,0,0,.6);
-}
+
 .contact h3 {
 	color: var(--orange);
 	font-weight: bold;
@@ -238,9 +227,7 @@ font-weight: bold;
  }
 
 @media (max-width: 992px) {
-	.contact{
-		height: 600px;
-	}
+
 	.main h1{
 		font-size: 35px !important;
 	}
